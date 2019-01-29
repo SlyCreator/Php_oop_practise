@@ -6,7 +6,7 @@
         var $legs = 2;
         var $character = 'bold';
 
-        function speak(){
+        static function speak(){
             return "Hello I am a Man";
         }
 
@@ -19,3 +19,4 @@
 
     $Babatunde = new Yoruba();
     echo $Babatunde->speak();
+   // echo Yoruba::speak();         even when u extends a class 
